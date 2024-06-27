@@ -1,0 +1,24 @@
+package basicprgrms;
+
+public class swap2strings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str1 = "divya";
+int x = str1.length();
+
+String str2 = "sri";
+int x1 = str2.length();
+
+int x2 = x+x1;
+String str3 = str1+str2;
+System.out.println(str3);
+
+str1 = str3.substring(0,x);
+System.out.println(str1);
+
+str2 = str3.substring(x, x2);
+System.out.println(str2);
+	}
+
+}

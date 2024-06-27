@@ -1,0 +1,43 @@
+package array;
+
+public class occuranceofword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+// String s = "the best of best is yet to come";
+// String r = "best";
+// String[] s1 = s.split(" ");
+// 
+// int c = 0 ;
+// 
+// for(int i=0; i<s1.length;i++) {
+// if(s1[i].equals(r)) {
+//	 c++;}}
+// System.out.println(c);
+// 
+//	//reverse of number 
+//		
+//		int n = 12345, reverse =0;
+//		while(n!=0) {
+//			reverse = reverse*10;
+//			reverse = reverse+n%10;
+//			n=n/10;}
+//			System.out.println(reverse);
+//			
+			
+		//count of number 
+		int n = 12345;
+		int count = 0;
+		while(n!=0) {
+			n=n/10;
+			count++;	
+		}
+		System.out.println(count);
+		}
+	}
+	
+	
+ 
+	
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Task-Divya&apos;&#x0D;&#x0A;- Original project: &apos;Task-Divya&apos;&#x0D;&#x0A;- Original element: &apos;Task-Divya/src/test/java/Divya_sTasks.Task_Divya&apos;" description="Delete element" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;Divya_sTasks.Task_Divya" element2="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;Divya_sTasks" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1712294139495" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+package Strings;
+
+public class Reverseastring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String Str ="i like programming";
+char str2[] = Str.toCharArray();
+for(int i=Str.length();i>=0;i--) {
+System.out.println(str2[i]);
+}
+//System.out.println(str2[i]);
+}
+
+}

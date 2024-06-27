@@ -1,0 +1,21 @@
+package array;
+
+public class occuranceofword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ String s = "the best of best is yet to come";
+ String r = "best";
+ String[] s1 = s.split(" ");
+ 
+ int c = 0 ;
+ 
+ for(int i=0; i<s1.length;i++) {
+ if(s1[i].equals(r)) {
+	 c++;}}
+ System.out.println("c");
+ }
+ 
+	}
+
+

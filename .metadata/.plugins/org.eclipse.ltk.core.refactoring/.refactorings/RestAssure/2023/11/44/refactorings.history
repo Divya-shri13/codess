@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;package_1.pojo_class&apos; to &apos;POJO_class&apos;&#x0D;&#x0A;- Original project: &apos;RestAssure&apos;&#x0D;&#x0A;- Original element: &apos;package_1.pojo_class&apos;&#x0D;&#x0A;- Renamed element: &apos;package_1.POJO_class&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;pojo_class&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;package_1{pojo_class.java[pojo_class" matchStrategy="1" name="POJO_class" qualified="false" references="true" similarDeclarations="false" stamp="1698989965709" textual="false" version="1.0"/>
+</session>

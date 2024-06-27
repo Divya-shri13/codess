@@ -1,0 +1,26 @@
+package Webpages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class homepagenxt extends BaSeClass {
+	WebDriver driver;
+	
+	
+	public homepagenxt(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	By Acess_all = By.xpath("(//button[@class='scCentralTab btn_to_link'])[1]");
+	
+	public void Acess_all() {
+		JavascriptExecutor js1 = (JavascriptExecutor) driver;
+		js1.executeScript("window.scrollBy(0,800)");
+		WebElement ele = driver.findElement(Acess_all);
+		ele.click();
+	}
+}
+
+

@@ -1,0 +1,19 @@
+package Day1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class Scenario1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver;
+		String actUrl ="https://soliterata.com/testing-tool-wep-page/elements/buttons/";
+		System.setProperty("WebDriver.Edge.driver"," \"C:\\selenium\\edgedriver_win64");
+		//System.setProperty("WebDriver.edge.driver", ("user dir")+ "msedgedriver.exe");                                                                                                                                                                                                                                                                                                                                                 
+		driver = new EdgeDriver();
+		driver.get("https://soliterata.com/testing-tool-wep-page/elements/buttons/");
+		driver.manage().window().maximize();
+	}
+
+}

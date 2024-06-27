@@ -1,0 +1,28 @@
+package classes;
+
+public class MethodsTypes {
+//no return type and no parameter
+	void show() {
+		System.out.println("world Hello");
+	}
+	//return type and no parameter
+	String show1() {
+		String s="Divya";
+		return s;
+	}
+	//parameter & no return type
+	void show(String a) {
+		System.out.println("Hello " +a);
+	}
+	int show(int a; int b) {
+		int c=a+b;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MethodsTypes s1=new MethodsTypes();
+		s1.show();
+		System.out.println(s1.show());
+
+	}
+
+}

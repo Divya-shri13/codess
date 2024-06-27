@@ -1,0 +1,64 @@
+package Webpages;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+public class hyderabad_oyorooms extends BaSeClass {
+	WebDriver driver;
+
+	public hyderabad_oyorooms(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	By loc = By.xpath("//a[@href='/hotels-in-hyderabad/']");
+	By title = By.xpath("//h1[@class='ListingContentHeader__h1']");
+	By optdrop = By.xpath("//div[@class='dropdown']/span[2]");
+	By  dropdownopt = By.xpath("(//li[@class='dropdown__item'])[3]/span");
+	
+public void oyo() {
+	WebElement location = driver.findElement(loc);
+	ClickMethods(location);
+	
+	String mainWindow = driver.getWindowHandle();
+	Set<String> allWindows = driver.getWindowHandles();  
+	// returns string , get unique Id of current window
+	List<String> list = new ArrayList<String>(allWindows); // oraganisation of data
+	Iterator<String> i = allWindows.iterator(); // iterating 
+	while (i.hasNext()) {
+		String childWindow = i.next();
+		if (!(mainWindow.equals(childWindow))) {
+			driver.switchTo().window(childWindow);
+//			break;
+		}
+	}
+	driver.getTitle();
+	WebElement text = driver.findElement(title);
+	text.getText();
+	WebElement sort = driver.findElement(optdrop);
+	ClickMethods(sort);
+	WebElement dropdown = driver.findElement(optdrop);
+	ClickMethods(dropdown);
+	Actions a = new Actions(driver);
+	WebElement s = driver.findElement(By.xpath("//div[@class='input-range']"));
+	WebElement d = driver.findElement(By.xpath("(//div[@class='input-range__slider'])[1]"));
+	a.moveToElement(s).clickAndHold().dragAndDropBy(d, 0, 150).perform();
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+}
+}

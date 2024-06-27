@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ExcelReader.java&apos; to &apos;Capgemini.talent/src/main/java/utilites&apos;&#x0D;&#x0A;- Original project: &apos;test_for_pom&apos;&#x0D;&#x0A;- Destination element: &apos;Capgemini.talent/src/main/java/utilites&apos;&#x0D;&#x0A;- Original element: &apos;Utilities.ExcelReader.java&apos;" description="Copy compilation unit" destination="=Capgemini.talent/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;utilites" element1="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;Utilities{ExcelReader.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1709806053004" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,26 @@
+package package_1;
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+import org.testng.annotations.Test;
+ 
+public class Day2 {
+	@Test
+	
+	void testHeaders(){
+		given()
+		.when()
+		.get("https://open-meteo.com/")
+		.then()
+		.header("Content-Type","text/html")
+		.and()
+		.header("Transfer-Encoding","chunked")
+		.and()
+		.header("Last-Modified","Fri, 13 Oct 2023 14:33:25 GMT");
+	}
+
+ 
+}
+
+

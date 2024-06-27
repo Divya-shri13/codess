@@ -1,0 +1,34 @@
+package makemytrip;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.Assert;
+
+public class Giftcards_mymtrp_divya {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	 	WebDriver driver;
+/* System.setProperty("webdriver.edge.driver", "C:\\selenium\\edgedriver_win64");
+	driver = new EdgeDriver();
+	String act = "https://www.makemytrip.com/";
+	driver.get("https://www.makemytrip.com/");
+	driver.manage().window().maximize();
+	String ext = driver.getCurrentUrl();
+	Assert.assertEquals(act, ext);
+	System.out.println("the login is sucessful");
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));*/
+		String act =  "https://www.makemytrip.com/";
+		System.setProperty("Webdriver.edge.driver","C:\\selenium\\edgedriver_win64");
+		driver = new EdgeDriver();
+		driver.get("https://www.makemytrip.com/");
+		driver.manage().window().maximize();
+		String Ext = driver.getCurrentUrl();
+		Assert.assertEquals(act,Ext );
+		System.out.println("the login is susscefull and the url is correct");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	}
+
+}

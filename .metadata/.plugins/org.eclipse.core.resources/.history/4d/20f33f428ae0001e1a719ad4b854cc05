@@ -1,0 +1,17 @@
+package TestPages;
+
+import org.testng.annotations.Test;
+
+import Webpages.NTLM_divya;
+import generic.DriVerclass;
+
+public class divya_ntlm extends DriVerclass {
+ 
+	
+	@Test
+	public void ntlm_method() throws InterruptedException {
+		NTLM_divya ntm = new NTLM_divya(driver);
+		ntm.NTLMdivya();
+		
+	}
+}

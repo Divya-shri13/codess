@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.capgemini.package-info.java&apos; to &apos;App.java&apos;&#x0D;&#x0A;- Original project: &apos;ems&apos;&#x0D;&#x0A;- Original element: &apos;com.capgemini.package-info.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.capgemini.App.java&apos;" description="Rename compilation unit &apos;package-info.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.capgemini{package-info.java" name="App.java" references="false" stamp="1673948509414" version="1.0"/>
+</session>

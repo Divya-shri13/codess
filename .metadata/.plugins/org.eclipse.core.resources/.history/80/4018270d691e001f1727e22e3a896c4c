@@ -1,0 +1,10 @@
+package basicprgrms;
+
+public class swap2numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
